@@ -25,7 +25,6 @@
 - **version** (`String`, `required`) - версия бандла.
 - **resourceId** (`String`, `required`) - идентификатор ресурса в Storage.
 - **catalog** (`String`, `required`, `ref: 'Catalog'`) - ссылка на позицию каталога.
-- **serviceSignature** (`String`, `required`) - сигнатура для передачи сервису. Не должна передаваться пользователю.
 - **status** (`String`, `required`) - статус готовности файла (process, done, error)
 - **error** (`Mixed`) - если **status** = 'error', то в этом поле будет тело/текст ошибки
 
@@ -107,7 +106,7 @@
 - **deviceName** (`String`) - название устройства, для которого выписан ключ.
 - **deviceId** (`String`) - идентификатор устройства, для которого выписан ключ.
 - **publicKey** (`String`) - публичный ключ.
-- **user** (`ObjectId`, `required`, `ref: 'User'`) - пользователь, которому выдана лицензия.
+- **user** (`ObjectId`, `required`, `ref: 'User'`) - пользователь ключа.
 - **body** (`String`, `required`) - ссылка на resourceId тела ключа хранилище.
 
 

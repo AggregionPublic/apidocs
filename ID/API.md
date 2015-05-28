@@ -148,10 +148,7 @@ Aggregion ID - сервис авторизации для Aggregion.
           "auth": {
             "login": "123",
             "password": "456",
-            "credentials": {
-                "social": ["posts"],
-                "distribution": ["subscriptions"]
-            },
+            "credentials": {"id":["main","accounts"],"distribution":["main"],"storage":["main"]},
             "expiresIn": "63072000"
           },
         }

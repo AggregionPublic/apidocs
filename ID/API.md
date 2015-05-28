@@ -135,6 +135,32 @@ Aggregion ID - сервис авторизации для Aggregion.
         { "code" : "AAABBBCCCDDD=" } 
         
 
+## Запрос токена для взаимодействия back-end <-> back-end [/oauth/serverToken]
+Авторизация: не нужна.
+
+### Запрос токена для доступа к сервисам [POST]
+
++ Request (application/json)
+    
+        {
+          "clientId": "12345",
+          "clientSecret": "someSecret",
+          "auth": {
+            "login": "123",
+            "password": "456",
+            "credentials": {
+                "social": ["posts"],
+                "distribution": ["subscriptions"]
+            },
+            "expiresIn": "63072000"
+          },
+        }
+
++ Response 200 (application/json)
+
+        { "token" : "INC60L7QtNC40YDQvtCy0LDQvdC40Y8g0Lg=", "expiresIn" : 63072000 }
+        
+
 #Group Scope
 
 ## Запрос информации и сервисах и scope [/oauth/scopes]

@@ -14,3 +14,8 @@
 
 - [API](Market/API.md)
 - [Models](Market/Models.md)
+
+# Сервис Storage
+
+- [API](Storage/API.md)
+- [Models](Storage/Models.md)

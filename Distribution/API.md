@@ -307,6 +307,7 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 
 			[{
+			    "id": "001",
 			    "owner": "123",
 			    "version": "1.0",
 			    "resourceId": "123",

@@ -601,6 +601,16 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 ### Создать документ [POST]
 
++ Request (application/json)
+
+
+			{"contragent": "123", "type": "invoice", "squad": ["catalog": "123", "qty": 10, "licensePeriod": 365]}
+			
++ Response 201 (application/json)
+
+
+			$Document
+
 ## Управление конкретным документом [/documents/{id}]
 
 ### Получить документ [GET]

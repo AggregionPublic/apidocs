@@ -574,6 +574,61 @@ Aggregion DS - сервис дистрибуции для Aggregion.
                 "creationDate": "Date",
                 "expirationDate": "Date"
 			}]
+
+
+## Передать экземпляры во владение другому аккаунту [/items/moveToAccount]
+
+### [POST]
+
+Автоматически создается документ с типом invoice и с указанными опциями и транзакция.
+
++ Request (application/json)
+			
+			{
+				"items": [
+					{
+						"catalog": "123",
+						"expirationDate": "date",
+						"qty": 1
+					},
+					{
+						"catalog": "456",
+						"expirationDate": "date",
+						"qty": 2
+					}
+				],
+				"account": "accountId",
+				"documentOptions": {}
+			}
+
++ Response 201
+
+
+## Передать экземпляры в другой фонд [/items/moveToFund]
+
+### [POST]
+
+Разрешается передача только в фонд, владельцем которого является текущий аккаунт. Автоматически создается транзакция.
+
++ Request (application/json)
+			
+			{
+				"items": [
+					{
+						"catalog": "123",
+						"expirationDate": "date",
+						"qty": 1
+					},
+					{
+						"catalog": "456",
+						"expirationDate": "date",
+						"qty": 2
+					}
+				],
+				"fund": "fundId"
+			}
+
++ Response 201
 			
 
 # Group Documents

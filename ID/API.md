@@ -248,6 +248,7 @@ Aggregion ID - сервис авторизации для Aggregion.
 + Response 200 (application/json)
 
         [{
+            "id": "000001",
             "owner": 123,
             "name": "Школа №1",
             "admins": [123, 456]

@@ -251,6 +251,7 @@ Aggregion ID - сервис авторизации для Aggregion.
             "id": "000001",
             "owner": 123,
             "name": "Школа №1",
+            "isOrganization": false,
             "admins": [123, 456]
         }]
 

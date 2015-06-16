@@ -587,18 +587,19 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 			{
 				"items": [
 					{
-						"catalog": "123",
+						"catalog": "CatalogId",
 						"expirationDate": "date",
 						"qty": 1
 					},
 					{
-						"catalog": "456",
+						"catalog": "CatalogId",
 						"expirationDate": "date",
 						"qty": 2
 					}
 				],
-				"account": "accountId",
-				"documentOptions": {}
+				"account": "AccountId",
+				"documentOptions": [],
+                "fromFund": "FundId"
 			}
 
 + Response 201
@@ -615,17 +616,18 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 			{
 				"items": [
 					{
-						"catalog": "123",
+						"catalog": "CatalogId",
 						"expirationDate": "date",
 						"qty": 1
 					},
 					{
-						"catalog": "456",
+						"catalog": "CatalogId",
 						"expirationDate": "date",
 						"qty": 2
 					}
 				],
-				"fund": "fundId"
+				"fromFund": "FundId",
+                "toFund": "FundId"
 			}
 
 + Response 201

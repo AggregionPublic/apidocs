@@ -37,3 +37,39 @@ url?filter=field("value",notequals)       // Найдёт все записи у
 url?filter=field("pattern",regex)         // Найдёт все записи у которых field подходит по паттерну регулярного выражения
 url?filter=field(["value1","value2"],in)  // Эквивалентно оператору IN в SQL
 ```
+
+# Описание работы текстового поиска
+textsearch=value
+Ищет совпадения по тексту сразу по нескльким полям модели
+
+Пример:
+```
+url?textsearch=пушкин
+```
+
+# Описание работы раскрытия полей (extend)
+Если поле в модели ссылается на сущность другой модели, то можно его раскрыть и превратить в объект.
+
+Пример:
+
+http://ds.aggregion.dev.e-azbuka.corp/api/public/catalog
+```
+[
+  {
+    "description": {"default": "2+2", "ru_RU": "2+2"},
+    "owner": "5555ba3fb01666bd2a0de5fc",
+    "title": {"default": "C++ Forever", "ru_RU": "Язык программирования C++"}
+  }
+]
+```
+
+http://ds.aggregion.dev.e-azbuka.corp/api/public/catalog?extend=owner
+```
+[
+  {
+    "description": {"default": "2+2", "ru_RU": "2+2"},
+    "owner": {"name": "Ivan Ivanov", "isOrganization": false, "id": "5555ba3fb01666bd2a0de5fc"},
+    "title": {"default": "C++ Forever", "ru_RU": "Язык программирования C++"}
+  }
+]
+```

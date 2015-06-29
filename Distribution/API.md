@@ -575,6 +575,55 @@ Aggregion DS - сервис дистрибуции для Aggregion.
                 "expirationDate": "Date"
 			}]
 
+## Создать лизы для пользователей [/items/createLeasesForUsers]
+
+Экземпляры с указанными параметрами должны быть в фонде.
+
+### [POST]
+
++ Request (application/json)
+			
+			{
+				"items": [
+					{
+						"catalog": "123",
+						"expirationDate": "date"
+					},
+					{
+						"catalog": "456",
+						"expirationDate": "date"
+					}
+				],
+				"users": ["1", "2", "3"],
+				"expirationDate": "date"
+			}
+
++ Response 201
+
+## Создать лизы для групп [/items/createLeasesForGroups]
+
+Экземпляры с указанными параметрами должны быть в фонде.
+
+### Создать лизы [POST]
+
++ Request (application/json)
+			
+			{
+				"items": [
+					{
+						"catalog": "123",
+						"expirationDate": "date"
+					},
+					{
+						"catalog": "456",
+						"expirationDate": "date"
+					}
+				],
+				"groups": ["1", "2", "3"],
+				"expirationDate": "date"
+			}
+
++ Response 201
 
 ## Передать экземпляры во владение другому аккаунту [/items/moveToAccount]
 

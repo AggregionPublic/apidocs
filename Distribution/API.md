@@ -47,36 +47,36 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 			
 			[{
 				"id": "123",
-                                "owner": "123",
-                                "title": {
-                                        "default": "English",
-                                        "ru_RU": "Название на русском языке"
-                                },
-                                "description": {
-                                        "default": "English",
-                                        "ru_RU": "Описание на русском языке"
-                                },
-                                "cover": "cover_url",
-                                "tags": ["String"],
-                                "platformSupport": [
-                                        "windows",
-                                        "ios",
-                                        "android",
-                                        "android4.3+"
-                                ],
-                                "previewImages": [
-                                        "url",
-                                        "url"
-                                ],
-                                "previewVideos": [
-                                        "url",
-                                        "url"
-                                ],
-                                "options": {
-                                        "language": "ru_RU",
-                                        "isbn": "isbn",
-                                        "someOption": "someValue"
-                                }
+				"owner": "123",
+				"title": {
+					"default": "English",
+					"ru_RU": "Название на русском языке"
+				},
+				"description": {
+					"default": "English",
+					"ru_RU": "Описание на русском языке"
+				},
+				"cover": "cover_url",
+				"tags": ["String"],
+				"platformSupport": [
+					"windows",
+					"ios",
+					"android",
+					"android4.3+"
+				],
+				"previewImages": [
+					"url",
+					"url"
+				],
+				"previewVideos": [
+					"url",
+					"url"
+				],
+				"options": {
+					"language": "ru_RU",
+					"isbn": "isbn",
+					"someOption": "someValue"
+				}
 			}]
 
 
@@ -86,77 +86,77 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 + Request (application/json)
 
 
-                        {
-                                "title": {
-                                        "default": "English",
-                                        "ru_RU": "Название на русском языке"
-                                },
-                                "description": {
-                                        "default": "English",
-                                        "ru_RU": "Описание на русском языке"
-                                },
-                                "cover": "cover_url",
-                                "tags": ["String"],
-                                "platformSupport": [
-                                        "windows",
-                                        "ios",
-                                        "android",
-                                        "android4.3+"
-                                ],
-                                "previewImages": [
-                                        "url",
-                                        "url"
-                                ],
-                                "previewVideos": [
-                                        "url",
-                                        "url"
-                                ],
-                                "options": {
-                                        "language": "ru_RU",
-                                        "isbn": "isbn",
-                                        "someOption": "someValue"
-                                },
-                                "maxKeys": 10
-                        }
+			{
+				"title": {
+					"default": "English",
+					"ru_RU": "Название на русском языке"
+				},
+				"description": {
+					"default": "English",
+					"ru_RU": "Описание на русском языке"
+				},
+				"cover": "cover_url",
+				"tags": ["String"],
+				"platformSupport": [
+					"windows",
+					"ios",
+					"android",
+					"android4.3+"
+				],
+				"previewImages": [
+					"url",
+					"url"
+				],
+				"previewVideos": [
+					"url",
+					"url"
+				],
+				"options": {
+					"language": "ru_RU",
+					"isbn": "isbn",
+					"someOption": "someValue"
+				},
+				"maxKeys": 10
+			}
 
 
 + Response 201 (application/json)
 
 			
-                        {
-                                "id": "123",
-                                "owner": "123",
-                                "title": {
-                                        "default": "English",
-                                        "ru_RU": "Название на русском языке"
-                                },
-                                "description": {
-                                        "default": "English",
-                                        "ru_RU": "Описание на русском языке"
-                                },
-                                "cover": "cover_url",
-                                "tags": ["String"],
-                                "platformSupport": [
-                                        "windows",
-                                        "ios",
-                                        "android",
-                                        "android4.3+"
-                                ],
-                                "previewImages": [
-                                        "url",
-                                        "url"
-                                ],
-                                "previewVideos": [
-                                        "url",
-                                        "url"
-                                ],
-                                "options": {
-                                        "language": "ru_RU",
-                                        "isbn": "isbn",
-                                        "someOption": "someValue"
-                                },
-                                "maxKeys": 10
-                        }
+			{
+				"id": "123",
+				"owner": "123",
+				"title": {
+					"default": "English",
+					"ru_RU": "Название на русском языке"
+				},
+				"description": {
+					"default": "English",
+					"ru_RU": "Описание на русском языке"
+				},
+				"cover": "cover_url",
+				"tags": ["String"],
+				"platformSupport": [
+					"windows",
+					"ios",
+					"android",
+					"android4.3+"
+				],
+				"previewImages": [
+					"url",
+					"url"
+				],
+				"previewVideos": [
+					"url",
+					"url"
+				],
+				"options": {
+					"language": "ru_RU",
+					"isbn": "isbn",
+					"someOption": "someValue"
+				},
+				"maxKeys": 10
+			}
 
 
 ## Управление позицией каталога [/catalog/{id}]
@@ -166,39 +166,39 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 + Response 200 (application/json)
 
 			
-                        {
-                                "id": "123",
-                                "owner": "123",
-                                "title": {
-                                        "default": "English",
-                                        "ru_RU": "Название на русском языке"
-                                },
-                                "description": {
-                                        "default": "English",
-                                        "ru_RU": "Описание на русском языке"
-                                },
-                                "cover": "cover_url",
-                                "tags": ["String"],
-                                "platformSupport": [
-                                        "windows",
-                                        "ios",
-                                        "android",
-                                        "android4.3+"
-                                ],
-                                "previewImages": [
-                                        "url",
-                                        "url"
-                                ],
-                                "previewVideos": [
-                                        "url",
-                                        "url"
-                                ],
-                                "options": {
-                                        "language": "ru_RU",
-                                        "isbn": "isbn",
-                                        "someOption": "someValue"
-                                }
-                        }
+			{
+				"id": "123",
+				"owner": "123",
+				"title": {
+					"default": "English",
+					"ru_RU": "Название на русском языке"
+				},
+				"description": {
+					"default": "English",
+					"ru_RU": "Описание на русском языке"
+				},
+				"cover": "cover_url",
+				"tags": ["String"],
+				"platformSupport": [
+					"windows",
+					"ios",
+					"android",
+					"android4.3+"
+				],
+				"previewImages": [
+					"url",
+					"url"
+				],
+				"previewVideos": [
+					"url",
+					"url"
+				],
+				"options": {
+					"language": "ru_RU",
+					"isbn": "isbn",
+					"someOption": "someValue"
+				}
+			}
 
 
 ### Изменить конкретную позицию [PATCH]
@@ -206,50 +206,50 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 + Request (application/json)
 
 
-                        {
-                                "title": {
-                                        "default": "New title",
-                                        "ru_RU": "Новое название"
-                                }
-                        }
+			{
+				"title": {
+					"default": "New title",
+					"ru_RU": "Новое название"
+				}
+			}
 
 
 + Response 201 (application/json)
 
 			
-                        {
-                                "id": "123",
-                                "owner": "123",
-                                "title": {
-                                        "default": "New title",
-                                        "ru_RU": "Новое название"
-                                },
-                                "description": {
-                                        "default": "English",
-                                        "ru_RU": "Описание на русском языке"
-                                },
-                                "cover": "cover_url",
-                                "tags": ["String"],
-                                "platformSupport": [
-                                        "windows",
-                                        "ios",
-                                        "android",
-                                        "android4.3+"
-                                ],
-                                "previewImages": [
-                                        "url",
-                                        "url"
-                                ],
-                                "previewVideos": [
-                                        "url",
-                                        "url"
-                                ],
-                                "options": {
-                                        "language": "ru_RU",
-                                        "isbn": "isbn",
-                                        "someOption": "someValue"
-                                }
-                        }
+			{
+				"id": "123",
+				"owner": "123",
+				"title": {
+					"default": "New title",
+					"ru_RU": "Новое название"
+				},
+				"description": {
+					"default": "English",
+					"ru_RU": "Описание на русском языке"
+				},
+				"cover": "cover_url",
+				"tags": ["String"],
+				"platformSupport": [
+					"windows",
+					"ios",
+					"android",
+					"android4.3+"
+				],
+				"previewImages": [
+					"url",
+					"url"
+				],
+				"previewVideos": [
+					"url",
+					"url"
+				],
+				"options": {
+					"language": "ru_RU",
+					"isbn": "isbn",
+					"someOption": "someValue"
+				}
+			}
 
 
 ### Удалить позицию каталога [DELETE]
@@ -309,14 +309,14 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 
 			[{
-                                "id": "001",
-                                "owner": "123",
-                                "version": "1.0",
-                                "resourceId": "123",
-                                "catalog": "456"
+				"id": "001",
+				"owner": "123",
+				"version": "1.0",
+				"resourceId": "123",
+				"catalog": "456"
 			}]
-            
-            
+			
+			
 
 
 ### Добавить бандл [POST]
@@ -326,22 +326,22 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 + Request (application/json)
 
 			{
-                                "owner": "123",
-                                "version": "1.0",
-                                "catalog": "456",
-                                "sourceResourceId": "123"
+				"owner": "123",
+				"version": "1.0",
+				"catalog": "456",
+				"sourceResourceId": "123"
 			}
 
 
 + Response 201 (application/json)
 
 			{
-                                "id": "456",
-                                "owner": "123",
-                                "version": "1.0",
-                                "resourceId": "123",
-                                "catalog": "456",
-                                "available": false
+				"id": "456",
+				"owner": "123",
+				"version": "1.0",
+				"resourceId": "123",
+				"catalog": "456",
+				"available": false
 			}
 
 
@@ -352,12 +352,12 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 + Response 200
 
 			{
-                                "id": "456",
-                                "owner": "123",
-                                "version": "1.0",
-                                "resourceId": "123",
-                                "catalog": "456",
-                                "available": false
+				"id": "456",
+				"owner": "123",
+				"version": "1.0",
+				"resourceId": "123",
+				"catalog": "456",
+				"available": false
 			}
 
 
@@ -392,9 +392,9 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 			
 			[{
-                                "id": "456",
-                                "owner": "123",
-                                "name": "Название фонда"
+				"id": "456",
+				"owner": "123",
+				"name": "Название фонда"
 			}]
 
 
@@ -403,17 +403,17 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 + Request (application/json)
 
 			{
-                                "owner": "123",
-                                "name": "Название фонда"
+				"owner": "123",
+				"name": "Название фонда"
 			}
 
 + Response 200 (application/json)
 
 			
 			{
-                                "id": "456",
-                                "owner": "123",
-                                "name": "Название фонда"
+				"id": "456",
+				"owner": "123",
+				"name": "Название фонда"
 			}
 
 
@@ -425,9 +425,9 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 			
 			{
-                                "id": "456",
-                                "owner": "123",
-                                "name": "Название фонда"
+				"id": "456",
+				"owner": "123",
+				"name": "Название фонда"
 			}
 
 
@@ -446,9 +446,9 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 			
 			{
-                                "id": "456",
-                                "owner": "123",
-                                "name": "Новое название"
+				"id": "456",
+				"owner": "123",
+				"name": "Новое название"
 			}
 
 
@@ -463,21 +463,21 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 Возможные поля для extend:
 
-    - catalog
+	- catalog
 
 ### Получить фонд [GET]
 
 + Response 206 (application/json)
 
-    		
-                        [{
-                                "catalog": "553a434e41a76a260efc00ef",
-                                "items": [{
-                                        "creationDate": "2015-04-24T13:21:18.000Z",
-                                        "expirationDate": "2015-05-04T13:21:18.000Z",
-                                        "qty": 9
-                                }]
-                        }]
+			
+			[{
+				"catalog": "553a434e41a76a260efc00ef",
+				"items": [{
+					"creationDate": "2015-04-24T13:21:18.000Z",
+					"expirationDate": "2015-05-04T13:21:18.000Z",
+					"qty": 9
+				}]
+			}]
 
 
 # Group Items
@@ -512,10 +512,10 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 
 			[{
-                                "catalog": "ObjectId",
-                                "fund": "ObjectId",
-                                "creationDate": "Date",
-                                "expirationDate": "Date"
+				"catalog": "ObjectId",
+				"fund": "ObjectId",
+				"creationDate": "Date",
+				"expirationDate": "Date"
 			}]
 
 
@@ -527,9 +527,9 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 
 			{
-                                "catalog": "ObjectId",
-                                "fund": "ObjectId",
-                                "expirationDate": "Date"
+				"catalog": "ObjectId",
+				"fund": "ObjectId",
+				"expirationDate": "Date"
 			}
 
 
@@ -538,12 +538,12 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 
 			{
-                                "creator": 123,
-                                "owner": "123",
-                                "catalog": "ObjectId",
-                                "fund": "ObjectId",
-                                "creationDate": "Date",
-                                "expirationDate": "Date"
+				"creator": 123,
+				"owner": "123",
+				"catalog": "ObjectId",
+				"fund": "ObjectId",
+				"creationDate": "Date",
+				"expirationDate": "Date"
 			}
 
 
@@ -557,10 +557,10 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 
 			{
-                                "catalog": "ObjectId",
-                                "fund": "ObjectId",
-                                "expirationDate": "Date",
-                                "qty": Number
+				"catalog": "ObjectId",
+				"fund": "ObjectId",
+				"expirationDate": "Date",
+				"qty": Number
 			}
 
 
@@ -569,12 +569,12 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 
 
 			[{
-                                "creator": 123,
-                                "owner": "123",
-                                "catalog": "ObjectId",
-                                "fund": "ObjectId",
-                                "creationDate": "Date",
-                                "expirationDate": "Date"
+				"creator": 123,
+				"owner": "123",
+				"catalog": "ObjectId",
+				"fund": "ObjectId",
+				"creationDate": "Date",
+				"expirationDate": "Date"
 			}]
 
 ## Создать лизы для пользователей [/items/createLeasesForUsers]
@@ -650,7 +650,7 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 				],
 				"account": "AccountId",
 				"documentOptions": [],
-                                "fromFund": "FundId"
+				"fromFund": "FundId"
 			}
 
 + Response 201
@@ -678,7 +678,7 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 					}
 				],
 				"fromFund": "FundId",
-                                "toFund": "FundId"
+				"toFund": "FundId"
 			}
 
 + Response 201

@@ -684,7 +684,7 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 + Response 201
 			
 
-## Создать и пПередать экземпляры во владение другому аккаунту [/items/createAndMoveToAccount]
+## Создать и передать экземпляры во владение другому аккаунту [/items/createAndMoveToAccount]
 
 ### [POST]
 

@@ -684,6 +684,35 @@ Aggregion DS - сервис дистрибуции для Aggregion.
 + Response 201
 			
 
+## Создать и пПередать экземпляры во владение другому аккаунту [/items/createAndMoveToAccount]
+
+### [POST]
+
+Автоматически создается необходимое количество Item, документ с типом invoice и транзакция.
+
++ Request (application/json)
+			
+			{
+				"items": [
+					{
+						"catalog": "CatalogId",
+						"expirationDate": "date",
+						"qty": 1
+					},
+					{
+						"catalog": "CatalogId",
+						"expirationDate": "date",
+						"qty": 2
+					}
+				],
+				"account": "AccountId",
+				"documentOptions": [],
+				"fromFund": "FundId"
+			}
+
++ Response 201
+
+
 # Group Documents
 
 ## Управление список документов [/documents]

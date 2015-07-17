@@ -22,7 +22,7 @@
 
 - **owner** (`ObjectId`, `required`, `ref: 'Account'`) - владелец.
 - **showcase** (`ObjectId`, `ref: 'Showcase'`) - витрина.
-- **parent** (`ObjectId`, `ref: 'SaleItem'`) - родительская позиция.
+- **parent** (`ObjectId`, `ref: 'Good'`) - родительская позиция.
 - **catalog** (`ObjectId`, `required`, `ref: 'Catalog'`) - позиция каталога, которая выставлена на продажу.
 - **licensePeriod** (`Number`) - период лицензии в днях. Если не указан, то период бесконечен.
 - **cost** (`Number`, `required`) - цена.
